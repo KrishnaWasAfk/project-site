@@ -1,0 +1,438 @@
+.top-container {
+    background-color: rgb(199, 231, 231);
+    position: relative;
+    height: 100vh; 
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.heading-container * {
+    font-family: Quicksand;
+}
+
+.heading-container {
+    display: inline-block;
+}
+
+.Krishna {
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.h2 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+span {
+    color: crimson;
+}
+
+
+.earphones {
+    height: 100vh;
+}
+
+.middle-container *{
+    font-family: Quicksand;
+}
+
+.middle-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color:beige;
+}
+
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me {
+    font-size: 3rem;
+    color:rgb(45, 118, 120);
+    margin-top: 100px;
+}
+
+.my-picture {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.About {
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.MySkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-skills {
+    font-size: 3rem;
+    color:rgb(45, 118, 120);
+    margin-top: 100px;
+}
+
+.skills-div {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coder-cat {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.skills-p {
+    width: 60%;
+}
+
+.MyHobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-hobbies {
+    font-size: 3rem;
+    color:rgb(45, 118, 120);
+    margin-top: 100px;
+}
+
+.Formula1 {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ferrari {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.f1-p {
+    width: 50%;
+}
+
+.ContactMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-h1 {
+    font-size: 3rem;
+    color:rgb(45, 118, 120);
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.contact-button {
+    border: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color:rgb(227, 227, 152);
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.contact-button:hover {
+    background-color:rgb(198, 198, 146);
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(140, 230, 233);
+    margin-top: 70px;
+}
+
+.Links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+    width: 150px;
+}
+
+.Links * {
+    color: black;
+}
+
+.KrishnaSuthar {
+    margin-top: 0px;
+    font-size: 1rem;
+}
+
+@media (min-width: 750px) and (max-width: 900px) {  /*Tablets*/
+
+    .top-container {
+        background-color: rgb(199, 231, 231);
+        position: relative;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: flex-end;
+    }
+
+    .earphones {
+       height: 50vh;
+    }
+
+    .About {
+        width: 60%;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 32px;
+    }
+
+    .skills-div {
+        display: flex;
+        width: 75%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .coder-cat {
+        height: 10rem;
+        width: 10rem;
+    }
+    
+    .ferrari {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .Formula1 {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+
+@media (min-width: 350px) and (max-width: 440px) {  /*Mobile Phones*/
+
+    .top-container {
+        background-color: rgb(199, 231, 231);
+        position: relative;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: flex-end;
+    }
+
+    .heading-container {
+        width: 300px;
+    }
+
+    .Krishna {
+        font-size: 3rem;
+    }
+
+    .h2 {
+        font-size: 2rem;
+    }
+
+    .earphones {
+       height: 40vh;
+    }
+
+    .About {
+        width: 65%;
+    }
+
+    .my-picture {
+        height: 10rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 32px;
+    }
+
+    .skills-div {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .coder-cat {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .skills-p {
+        width: 80%;
+    }
+    
+    .ferrari {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .Formula1 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .f1-p {
+        width: 90%;
+    }
+
+    .contact-h1 {
+        font-size: 2rem;
+    }
+
+    .contact-h2 {
+        font-size: 1rem;
+    }
+
+    .contact-button {
+        border: none;
+        padding: 10px 30px;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color:rgb(227, 227, 152);
+        cursor: pointer;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 330px) {  /*Mobile Phones (Small)*/
+
+    .top-container {
+        background-color: rgb(199, 231, 231);
+        position: relative;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: flex-end;
+    }
+
+    .heading-container {
+        width: 300px;
+    }
+
+    .Krishna {
+        font-size: 2.5rem;
+    }
+
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    .earphones {
+       height: 40vh;
+    }
+
+    .About {
+        width: 65%;
+    }
+
+    .my-picture {
+        height: 10rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 32px;
+    }
+
+    .skills-div {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .coder-cat {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .skills-p {
+        width: 80%;
+    }
+    
+    .ferrari {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .Formula1 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .f1-p {
+        width: 90%;
+    }
+
+    .contact-h1 {
+        font-size: 2rem;
+    }
+
+    .contact-h2 {
+        font-size: 1rem;
+    }
+
+    .contact-button {
+        border: none;
+        padding: 10px 30px;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color:rgb(227, 227, 152);
+        cursor: pointer;
+        margin-top: 30px;
+    }
+}
+
+
+
